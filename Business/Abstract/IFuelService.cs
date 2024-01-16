@@ -14,7 +14,7 @@ namespace Business.Abstract
 {
    public interface IFuelService
     {
-        public void Add(Fuel fuel); 
+        public void Add(Fuel fuel);
         public void Update(Fuel fuel);
         public void Delete(Fuel fuel);
         public IList<Fuel> GetAll();

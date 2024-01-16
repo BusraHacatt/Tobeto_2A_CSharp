@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DataAccess
-build_property.ProjectDir = C:\Users\Acer\source\repos\tobeto-2a-csharp_busra\DataAccess\
+build_property.ProjectDir = C:\Users\Acer\Source\Repos\tobeto-2a-csharp\DataAccess\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
