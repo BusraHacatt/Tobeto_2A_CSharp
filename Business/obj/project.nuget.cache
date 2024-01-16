@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2tpQ3bxCFWsugm/p9pvyDz1wKGCciemA9OYdDJ35wpYOTwrPhIShRN8qLhGoc9q89eeg5v9oMUseUD5P5PWLyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Acer\\source\\repos\\tobeto-2a-csharp_busra\\Business\\Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
