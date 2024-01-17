@@ -18,6 +18,6 @@ namespace Business.Abstract
         public void Update(Fuel fuel);
         public void Delete(Fuel fuel);
         public IList<Fuel> GetAll();
-        public Fuel GetById(int id);
+        public Fuel GetById(int id);  // Sadece bir veri getirmek için .
     }
 }
