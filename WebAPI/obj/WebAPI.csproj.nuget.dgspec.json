@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Business\\Business.csproj": {
+    "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\Entities.csproj"
+              "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -46,6 +46,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -77,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Core\\Core.csproj": {
+    "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,6 +117,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -137,14 +147,14 @@
         }
       }
     },
-    "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,11 +176,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Core\\Core.csproj"
+              "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\Core.csproj"
               },
-              "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\Entities.csproj"
+              "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -179,6 +189,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -204,14 +219,14 @@
         }
       }
     },
-    "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\Entities.csproj": {
+    "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -233,8 +248,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Core\\Core.csproj"
+              "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\Core.csproj"
               }
             }
           }
@@ -243,6 +258,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -268,14 +288,14 @@
         }
       }
     },
-    "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -297,11 +317,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Business\\Business.csproj"
+              "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\Business.csproj"
               },
-              "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Source\\Repos\\tobeto-2a-csharp\\Entities\\Entities.csproj"
+              "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -310,6 +330,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
