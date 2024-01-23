@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h8Tsay5mgFelSaAapTgWGSrRM2zSQerPi1oL2J2Am2z1uVSMym7sC8TmTVRaEcluCF0AU4TvuCSInYSq+tARIA==",
+  "dgSpecHash": "5HVqFR+cxNFd1VgNFholWmhBio7BFz1AaDUXnFk/oB9X+dVSZ+xa9J//cWRmIaphilm3iTMv/zY85QEMxDKwFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -84,12 +84,5 @@
     "C:\\Users\\Acer\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\WebAPI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

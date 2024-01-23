@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CtFHfIIgzgddcyoV9tG6d292LcUlN+no47/eUPfMl7g6nccHDkB4myPdQjcDaMW1/Njxb4olYjpqq0LSA+eOmw==",
+  "dgSpecHash": "Wsg1wlNiej8x9569SqoMYt61xwDGGsAUO6TQuorBDZ3u/CW5iB0EyjFnNQsA7sCO6YBvNP0o9eEBdKh7oaUtHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\Business.csproj",
   "expectedPackageFiles": [
@@ -78,12 +78,5 @@
     "C:\\Users\\Acer\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RYHif+U/MsA2cpunMmubd0Kp2leCl5F0da4hi+Qe4VzWvbeyZQtTtOVO8+MZQa1QnkvqEiHQ59FhUK2JGxvKgQ==",
+  "dgSpecHash": "cuI1+BeImn42bdDS0VuDlSUJVKTgsjEW0Tzq6MzixRdUhaOIt3KtSjOJTIfR9kh6CWzrXH3nc+1Z7/okx0Nxvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
@@ -72,12 +72,5 @@
     "C:\\Users\\Acer\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\ConsoleUI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
