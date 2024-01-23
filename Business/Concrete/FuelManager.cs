@@ -1,47 +1,61 @@
-﻿using Business.Abstract;
-using ConsoleUI;
+﻿using AutoMapper;
+using Business.Abstract;
+using Business.BusinessRules;
+using Business.Request.Fuel;
+using Business.Responses.Fuel;
 using DataAccess.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Entities.Concrete;
 
 namespace Business.Concrete
 {
-    public class FuelManager:IFuelService
+    public class FuelManager : IFuelService
     {
         private readonly IFuelDal _fuelDal;
-
-        public FuelManager(IFuelDal fuelDal)
+        private readonly FuelBusinessRules _fuelBusinessRules;
+        private IMapper _mapper;
+        public FuelManager(IFuelDal fuelDal, FuelBusinessRules fuelBusinessRules, IMapper mapper)
         {
             _fuelDal = fuelDal;
+            _fuelBusinessRules = fuelBusinessRules;
+            _mapper = mapper;
         }
 
-        public void Add(Fuel fuel)
+        public AddFuelResponse Add(AddFuelRequest request)
         {
-            _fuelDal.Add(fuel);
+            _fuelBusinessRules.CheckIfFuelNameExists(request.Name);
+
+            Fuel fuelToAdd = _mapper.Map<Fuel>(request);
+
+            _fuelDal.Add(fuelToAdd);
+
+            AddFuelResponse response = _mapper.Map<AddFuelResponse>(fuelToAdd);
+            return response;
         }
 
-        public void Delete(Fuel fuel)
+        public DeleteFuelResponse Delete(int id)
         {
-            _fuelDal.Delete(fuel);
+            Fuel fuelToDelete = _fuelBusinessRules.FindFuelId(id);
+            fuelToDelete.DeletedAt = DateTime.Now;
+            DeleteFuelResponse response = _mapper.Map<DeleteFuelResponse>(fuelToDelete);
+            return response;
+        }
+
+        public GetFuelListResponse GetList(GetFuelListRequest request)
+        {
+            IList<Fuel> fuelList = _fuelDal.GetList();
+            GetFuelListResponse response = _mapper.Map<GetFuelListResponse>(fuelList);
+            return response;
 
         }
 
-        public IList<Fuel> GetAll()
+        public UpdateFuelResponse Update(int id, UpdateFuelRequest request)
         {
-           return _fuelDal.GetList();
-        }
+            Fuel fuelToUpdate = _fuelBusinessRules.FindFuelId(id);
+            fuelToUpdate.Name = request.Name;
+            fuelToUpdate.UpdatedAt = DateTime.Now;
 
-        public Fuel GetById(int id)
-        {
-          return  _fuelDal.GetById(id);
-        }
-
-        public void Update(Fuel fuel)
-        {
-            _fuelDal.Update(fuel);
+            UpdateFuelResponse response = _mapper.Map<UpdateFuelResponse>(fuelToUpdate);
+            return response;
         }
     }
 }

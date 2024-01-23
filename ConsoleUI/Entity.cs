@@ -2,6 +2,8 @@
 
 internal abstract class Entity
 {
+    internal DateTime UpdatedAt;
+
     internal int Id { get; }
     internal DateTime CreatedAt { get; } // Read-Only Property
     internal DateTime? LastUpdatedAt { get; set; }

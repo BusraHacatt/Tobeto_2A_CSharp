@@ -1,46 +1,60 @@
-﻿using Business.Abstract;
-using ConsoleUI;
+﻿using AutoMapper;
+using Business.Abstract;
+using Business.BusinessRules;
+using Business.Request.Transmission;
+using Business.Responses.Transmission;
 using DataAccess.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Entities.Concrete;
 
 namespace Business.Concrete
 {
     public class TransmissionManager : ITransmissionService
     {
         private readonly ITransmissionDal _transmissionDal;
-
-        public TransmissionManager(ITransmissionDal transmissionDal)
+        private readonly TransmissionBusinessRules _transmissionBusinessRules;
+        private IMapper _mapper;
+        public TransmissionManager(ITransmissionDal transmissionDal, TransmissionBusinessRules transmissionBusinessRules, IMapper mapper)
         {
             _transmissionDal = transmissionDal;
+            _transmissionBusinessRules = transmissionBusinessRules;
+            _mapper = mapper;
+        }
+        public AddTransmissionResponse Add(AddTransmissionRequest request)
+        {
+            _transmissionBusinessRules.CheckIfNameTransmissionNameExists(request.Name);
+            Transmission transmissionToAdd = _mapper.Map<Transmission>(request);
+            _transmissionDal.Add(transmissionToAdd);
+            AddTransmissionResponse response = _mapper.Map<AddTransmissionResponse>(transmissionToAdd);
+            return response;
+
+
         }
 
-        public void Add(Transmission transmission)
+        public DeleteTransmissionResponse Delete(int id)
         {
-            _transmissionDal.Add(transmission);
+            Transmission transmissionToDelete = _transmissionBusinessRules.FindTransmissionId(id);
+            transmissionToDelete.DeletedAt = DateTime.Now;
+            DeleteTransmissionResponse response = _mapper.Map<DeleteTransmissionResponse>(transmissionToDelete);
+            return response;
+
         }
 
-        public void Delete(Transmission transmission)
+        public GetTransmissionListResponse GetList(GetTransmissionListRequest request)
         {
-            _transmissionDal.Delete(transmission);
+            IList<Transmission> transmissionList = _transmissionDal.GetList();
+            GetTransmissionListResponse response = _mapper.Map<GetTransmissionListResponse>(transmissionList);
+            return response;
         }
 
-        public IList<Transmission> GetAll()
+        public UpdateTransmissionResponse Update(int id, UpdateTransmissionRequest request)
         {
-            return _transmissionDal.GetList();
-        }
+            Transmission transmissionToUpdate = _transmissionBusinessRules.FindTransmissionId(id);
+            transmissionToUpdate.Name = request.Name;
+            transmissionToUpdate.UpdatedAt = DateTime.Now;
 
-        public Transmission GetById(int id)
-        {
-            return _transmissionDal.GetById(id);
-        }
+            UpdateTransmissionResponse response = _mapper.Map<UpdateTransmissionResponse>(transmissionToUpdate);
+            return response;
 
-        public void Update(Transmission transmission)
-        {
-            _transmissionDal.Update(transmission);
         }
     }
 }

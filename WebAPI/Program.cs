@@ -1,15 +1,29 @@
-var builder = WebApplication.CreateBuilder(args);
+using Business.DependencyResolvers;
+using Core.CrossCuttingConcerns.Exceptions;
 
-// Add services to the container.
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddBusinessServices();
+
+
+
+
+
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+ https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
 
+<<<<<<< Updated upstream
 // Configure the HTTP request pipeline...
+=======
+var app = builder.Build();
+app.UseGlobalExceptionHandling();
+
+
+>>>>>>> Stashed changes
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -21,5 +35,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+
 
 app.Run();

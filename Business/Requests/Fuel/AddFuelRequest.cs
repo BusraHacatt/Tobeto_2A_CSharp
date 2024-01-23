@@ -1,11 +1,11 @@
-﻿namespace Business.Requests.Fuel;
-
-public class AddFuelRequest
-{ // Dto
-    public string Name { get; set; }
-
-    public AddFuelRequest(string name)
+﻿namespace Business.Request.Fuel
+{
+    public class AddFuelRequest
     {
-        Name = name;
+        public string Name { get; set; }
+        public AddFuelRequest(string name)
+        {
+            Name = name;
+        }
     }
 }

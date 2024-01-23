@@ -1,16 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Core.Entities;
 
-namespace ConsoleUI
+namespace Entities.Concrete
 {
-    public class Fuel
+    public class Fuel : Entity<int>
     {
-        [Key]
-        public int Id { get; set; }
         public string Name { get; set; }
+        public Fuel()
+        {
+
+        }
+        public Fuel(string name)
+        {
+            Name = name;
+        }
     }
 }

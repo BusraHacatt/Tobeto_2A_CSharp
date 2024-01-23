@@ -1,18 +1,14 @@
-﻿using ConsoleUI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Business.Request.Transmission;
+using Business.Responses.Transmission;
 
 namespace Business.Abstract
 {
     public interface ITransmissionService
     {
-        public void Add(Transmission transmission);
-        public void Update(Transmission transmission);
-        public void Delete(Transmission transmission);
-        public IList<Transmission> GetAll();
-        public Transmission GetById(int id);
+        public AddTransmissionResponse Add(AddTransmissionRequest request);
+        public UpdateTransmissionResponse Update(int id, UpdateTransmissionRequest request);
+        public DeleteTransmissionResponse Delete(int id);
+        public GetTransmissionListResponse GetList(GetTransmissionListRequest request);
+
     }
 }
