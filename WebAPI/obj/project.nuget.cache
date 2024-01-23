@@ -1,12 +1,8 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "5Tk5bsv4XlPj/IQ8xXzAiQEF5Jg3zPp/YkzO1S78p9lnSMy8hNUygMGWLQyecwT8SInPWU6b8uHJiHrSGS6OAg==",
-=======
-  "dgSpecHash": "5HVqFR+cxNFd1VgNFholWmhBio7BFz1AaDUXnFk/oB9X+dVSZ+xa9J//cWRmIaphilm3iTMv/zY85QEMxDKwFQ==",
->>>>>>> Stashed changes
+  "dgSpecHash": "h8Tsay5mgFelSaAapTgWGSrRM2zSQerPi1oL2J2Am2z1uVSMym7sC8TmTVRaEcluCF0AU4TvuCSInYSq+tARIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Desktop\\Tobeto_2A_CSharp\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -88,5 +84,12 @@
     "C:\\Users\\Acer\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\WebAPI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
