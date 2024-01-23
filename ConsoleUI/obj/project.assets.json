@@ -243,11 +243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Tobeto_2A_CSharp\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "C:\\Users\\Acer\\Desktop\\Tobeto_2A_CSharp\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\Desktop\\Tobeto_2A_CSharp\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -269,8 +269,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Business\\Business.csproj"
+            "C:\\Users\\Acer\\Desktop\\Tobeto_2A_CSharp\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Acer\\Desktop\\Tobeto_2A_CSharp\\Business\\Business.csproj"
             }
           }
         }
@@ -279,6 +279,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

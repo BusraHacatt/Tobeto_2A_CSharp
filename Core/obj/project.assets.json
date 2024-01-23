@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Tobeto_2A_CSharp\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\Acer\\Desktop\\Tobeto_2A_CSharp\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Core\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\Desktop\\Tobeto_2A_CSharp\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,6 +46,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

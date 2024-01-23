@@ -7,6 +7,6 @@ namespace Business.Abstract;
 public interface IBrandService
 {
     public AddBrandResponse Add(AddBrandResponse request);
-
+    //commited
     public IList<Brand> GetList();
 }
