@@ -38,22 +38,24 @@ namespace WebAPI.Controllers
                     Status = StatusCodes.Status400BadRequest,
                     Detail = exception.Message,
                     Instance = HttpContext.Request.Path
-
+                    
                 });
             }
             //AddTransmissionResponse response = _transmissionService.Add(request);
             //return CreatedAtAction("GetList", response);
         }
-        [HttpPut("{id}")]
-        public UpdateTransmissionResponse Update(UpdateTransmissionRequest request, int id)
+        [HttpPut("{Id}")]
+        public ActionResult<UpdateTransmissionResponse> Update([FromRoute] int Id, [FromBody] UpdateTransmissionRequest request)
         {
-            UpdateTransmissionResponse update = _transmissionService.Update(id, request);
-            return update;
+            if (Id != request.Id)
+                return BadRequest();
+            UpdateTransmissionResponse response = _transmissionService.Update(request);
+            return Ok(response);
         }
-        [HttpDelete("{id}")]
-        public DeleteTransmissionResponse Delete(int id)
+        [HttpDelete("{Id}")]
+        public DeleteTransmissionResponse Delete([FromRoute] DeleteTransmissionRequest request)
         {
-            DeleteTransmissionResponse delete = _transmissionService.Delete(id);
+            DeleteTransmissionResponse delete = _transmissionService.Delete(request);
             return delete;
         }
     }

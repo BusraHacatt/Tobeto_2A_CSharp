@@ -1,11 +1,13 @@
-﻿namespace ConsoleUI;
-
-internal interface IUserDal // Soyut // Data Access Layer
+﻿namespace ConsoleUI
 {
-    //public int MyProperty { get; set; };
+    internal interface IUserDal 
+    {
+      
+        public void GetById(int id); 
+        public void Add(User user); 
+        public void Update(User user);
+        public void Delete(User user); 
 
-    public void GetById(int id); // Abstract
-    public void Add(User user); // Abstract
-    public void Update(User user); // Abstract
-    public void Delete(User user); // Abstract
+
+    }
 }

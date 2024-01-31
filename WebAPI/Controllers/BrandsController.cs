@@ -13,11 +13,11 @@ namespace WebAPI.Controllers
         public BrandsController(IBrandService brandService)
         {
             //Her Http Request için yeni bir Controller nesnesi oluşturulur.
-            //şuan bir cilass açıp static yaptık, bu referansın 1 tane odluğunu söylüyor, sürekli newlemez ve veriyi tutar.
+           
             _brandService = brandService;
             //ServiceRegistration.BrandService;
             //IBrandDal brandDal = new InMemoryBrandDal();
-            //_brandService = new BrandManager(brandDal);// Daha sonra IoC yapısını kurduğumuzda dependency injection ile daha verimli hale getiricez.
+            //_brandService = new BrandManager(brandDal);// 
         }
 
         //[HttpGet]
@@ -25,7 +25,7 @@ namespace WebAPI.Controllers
         //public IActionResult GetList()
         //{
         //    return Ok("Brands Controller");
-        //} //burada sadece succes dşyor çalışınca parametre döndürmesi için aşağıdaki gibi
+        //} 
         //[HttpGet]
 
         //public ActionResult<string>
@@ -33,7 +33,7 @@ namespace WebAPI.Controllers
         //{
         //    return Ok("Brands Controller");
         //}
-        //sadece 200 dönecekse
+        // 200 dönecekse
         [HttpGet]
         public GetBrandListResponse GetList([FromQuery] GetBrandListRequest request)
         {
@@ -63,18 +63,21 @@ namespace WebAPI.Controllers
                 });
             }
         }
-        [HttpPut("/update")]
-        public UpdateBrandResponse Update(UpdateBrandRequest request, int id)
+        [HttpPut("{Id}")]
+        public ActionResult<UpdateBrandResponse> Update([FromRoute] int Id, [FromBody] UpdateBrandRequest request)
         {
-            UpdateBrandResponse brandResponse = _brandService.Update(id, request);
-            return brandResponse;
+            if (Id != request.Id)
+                return BadRequest();
+            UpdateBrandResponse response = _brandService.Update(request);
+            return Ok(response);
         }
 
-        [HttpDelete("/delete")]
-        public DeleteBrandResponse Delete(int id)
+        [HttpDelete("{Id}")]
+        public DeleteBrandResponse Delete([FromRoute] DeleteBrandRequest request)
         {
-            DeleteBrandResponse deleteBrandResponse = _brandService.Delete(id);
+            DeleteBrandResponse deleteBrandResponse = _brandService.Delete(request);
             return deleteBrandResponse;
+
         }
     }
 }

@@ -1,0 +1,8 @@
+C:\Users\Acer\Documents\GitHub\Tobeto_2A_CSharp\WebApi2\obj\Debug\net8.0\WebApI.csproj.AssemblyReference.cache
+C:\Users\Acer\Documents\GitHub\Tobeto_2A_CSharp\WebApi2\obj\Debug\net8.0\WebApI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Documents\GitHub\Tobeto_2A_CSharp\WebApi2\obj\Debug\net8.0\WebApI.AssemblyInfoInputs.cache
+C:\Users\Acer\Documents\GitHub\Tobeto_2A_CSharp\WebApi2\obj\Debug\net8.0\WebApI.AssemblyInfo.cs
+C:\Users\Acer\Documents\GitHub\Tobeto_2A_CSharp\WebApi2\obj\Debug\net8.0\WebApI.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\GitHub\Tobeto_2A_CSharp\WebApi2\obj\Debug\net8.0\WebApI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Acer\Documents\GitHub\Tobeto_2A_CSharp\WebApi2\obj\Debug\net8.0\WebApI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Acer\Documents\GitHub\Tobeto_2A_CSharp\WebApi2\obj\Debug\net8.0\WebApI.sourcelink.json

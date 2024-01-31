@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oV6GCKvPpj2jJihCRlOsFXWflf56zJfEEAX/RE6RSJxu8IZ4MLa9FONsKa+IEga6knUCPToLAI4DWR0QAzMj/Q==",
+  "dgSpecHash": "tdg5eOOefig0QqC5p3tipSkTnHOJ+krWwMU88+lJctCAI7BkhVnZiq4F0cVv8MS/Auinu+9NX5djak9O/fdIAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Acer\\Documents\\GitHub\\Tobeto_2A_CSharp\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

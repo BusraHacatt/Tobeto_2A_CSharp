@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿﻿using AutoMapper;
 using Business.Abstract;
 using Business.BusinessRules;
 using Business.Concrete;
@@ -9,7 +9,7 @@ using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 
 namespace WebAPI
-{ //BU CLASSI SİLEBİLİRİZ, PROGRAMCSDE AYNI İŞLEMLERİ KISAYOLDAN YAPTIK
+{ //  SİLEBİLİRİZ
     public static class ServiceRegistration
     {//readonly dışarıdan atama yapılmasın diye
 
